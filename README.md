@@ -27,7 +27,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Ali Hamza](https://https://github.com/Chwdry-Hamza). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Ali Hamza](https://github.com/Chwdry-Hamza). Thanks!
 
 ## Built With
 
