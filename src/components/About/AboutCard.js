@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ali Hamza </span>
             from <span className="purple"> Islamabad, Pakistan.</span>
             <br />
-            I am currently employed as a software developer at Dev For health.
+            I am currently employed as a software developer at Solutionwing.io.
             <br />
             I have completed  Bs in Software Engineering (Bsse) at Abasyn Univesty Islamabad.
             <br />
