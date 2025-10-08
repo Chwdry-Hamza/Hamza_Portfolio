@@ -9,7 +9,8 @@ import { Card } from "react-bootstrap";
 import Saloonshop from  "../../Assets/Saloonshop.png"
 import Ksa4sale from  "../../Assets/Ksa4sale.png"
 import Podstarz from  "../../Assets/Podstarz.png"
-
+import SilverCare from "../../Assets/SilverCare.png"
+import SchoolManagmentSystem from "../../Assets/SchoolManagmentSystem.png"
 
 import {
   AiFillGithub,
@@ -29,7 +30,7 @@ function Home2() {
           </p>
           </Col> */}
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            {/* <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -65,7 +66,25 @@ function Home2() {
               </i>
               &nbsp; to deliver innovative solutions.
              
-            </p>
+            </p> */}
+            <h1 style={{ fontSize: "2.6em" }}>
+  LET ME <span className="purple"> INTRODUCE </span> MYSELF
+</h1>
+<p className="home-about-body">
+  I’m a skilled Software Engineer with over 3 years of frontend experience, specializing in building dynamic, intuitive, and high-performance web applications using <i><b className="purple">React.js and Next.js</b></i>.
+  <br />
+  <br />
+  I leverage modern UI libraries like <i><b className="purple">Material UI, Tailwind CSS, and Bootstrap</b></i> to create responsive, visually appealing designs that enhance user experience.
+  <br />
+  <br />
+  With 1 years of backend experience in <i><b className="purple">Node.js</b></i>, I contribute to scalable, full-stack solutions, ensuring seamless integration between frontend and backend systems.
+  <br />
+  <br />
+  My interests lie in exploring new <i><b className="purple">Web Technologies and Products</b></i> and diving into areas related to <i><b className="purple">Blockchain</b></i>.
+  <br />
+  <br />
+  Passionate about clean code and innovation, I stay <b className="purple">up-to-date</b> with the latest trends in web development, constantly improving my <i><b className="purple">skills</b></i> to deliver impactful solutions in dynamic teams.
+</p>
           </Col>
           <Col md={4} className="myAvtar">
   <Tilt>
@@ -83,6 +102,75 @@ function Home2() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+  <Card 
+    className="project-card-view" 
+    as="a" 
+    href="https://school-management-system-six-lake.vercel.app/auth/login" 
+    target="_blank"
+    style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+  >
+    <Card.Img 
+      variant="top" 
+      src={SchoolManagmentSystem} 
+      style={{ height: '200px', objectFit: 'cover' }} 
+      alt="Next.js Project"
+    />
+    <Card.Body>
+      <Card.Title>School Managment System</Card.Title>
+      <Card.Text>
+        An online School Managment System platform for Educational Institutes in Next.js, Node.js, and MongoDB.
+      </Card.Text>
+      <Button variant="primary">Click</Button>
+    </Card.Body>
+  </Card>
+</Col>
+          <Col md={4} className="project-card">
+  <Card 
+    className="project-card-view" 
+    as="a" 
+    href="https://app.silvercareagency.com/auth/jwt/login/?returnTo=%2Fpatients%2F" 
+    target="_blank"
+    style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+  >
+    <Card.Img 
+      variant="top" 
+      src={SilverCare} 
+      style={{ height: '200px', objectFit: 'cover' }} 
+      alt="Next.js Project"
+    />
+    <Card.Body>
+      <Card.Title>SilverCareAgency</Card.Title>
+      <Card.Text>
+        SilverCare Agency's online platform could be built using Next.js for a fast, SEO-friendly front-end and .NET for a secure, scalable back-end.
+      </Card.Text>
+      <Button variant="primary">Click</Button>
+    </Card.Body>
+  </Card>
+</Col>
+  <Col md={4} className="project-card">
+  <Card 
+    className="project-card-view" 
+    as="a" 
+    href="http://168.231.80.24:3002/#/login" 
+    target="_blank"
+    style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+  >
+    <Card.Img 
+      variant="top" 
+      src={Ksa4sale}
+      style={{ height: '200px', objectFit: 'cover' }} 
+      alt="Next/React.js Project"
+    />
+    <Card.Body>
+      <Card.Title>Ksa4sale</Card.Title>
+      <Card.Text>
+        I used React.js and Next.js for it with Material UI. Login credentials will be provided upon request.
+      </Card.Text>
+      <Button variant="primary">Click</Button>
+    </Card.Body>
+  </Card>
+</Col>
 <Col md={4} className="project-card">
   <Card 
     className="project-card-view" 
@@ -106,29 +194,7 @@ function Home2() {
     </Card.Body>
   </Card>
 </Col>
-   <Col md={4} className="project-card">
-  <Card 
-    className="project-card-view" 
-    as="a" 
-    href="http://168.231.80.24:3002/#/login" 
-    target="_blank"
-    style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
-  >
-    <Card.Img 
-      variant="top" 
-      src={Ksa4sale}
-      style={{ height: '200px', objectFit: 'cover' }} 
-      alt="Next/React.js Project"
-    />
-    <Card.Body>
-      <Card.Title>Ksa4sale</Card.Title>
-      <Card.Text>
-        I used React.js and Next.js for it with Material UI. Login credentials will be provided upon request.
-      </Card.Text>
-      <Button variant="primary">Click</Button>
-    </Card.Body>
-  </Card>
-</Col>
+ 
     <Col md={4} className="project-card">
   <Card 
     className="project-card-view" 
@@ -166,7 +232,7 @@ function Home2() {
             <ul className="home-about-social-links">
             <li className="social-icons">
   <a
-    href="https://wa.me/923355018663"
+    href="https://wa.me/971506316321"
     target="_blank"
     rel="noreferrer"
     className="icon-colour home-social-icons"

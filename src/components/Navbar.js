@@ -97,7 +97,7 @@ function NavBar() {
     href="tel:+923355018663"
     onClick={() => updateExpanded(false)}
   >
-    <AiOutlineUser style={{ marginBottom: "2px" }} /> Call : 03355018663
+    <AiOutlineUser style={{ marginBottom: "2px" }} /> Call : +971506316321
   </Nav.Link>
 </Nav.Item>
             {/* <Nav.Item>
